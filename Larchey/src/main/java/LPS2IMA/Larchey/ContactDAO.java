@@ -28,15 +28,6 @@ public class ContactDAO {
 		}
 	}
 	
-	public boolean addContact(String nom) throws IllegalStateException {
-		if (!isContactExist(nom)) {
-			contactList.add(new Contact(nom, "0000000000"));
-			return true;
-		} else {
-			throw new IllegalStateException("Contact déja présent dans la liste !");
-		}
-	}
-	
 	public void deleteContact(String nom) {
 		for (int i = 0; i < this.contactList.size(); i++) {
 			if (this.contactList.get(i).getNom() == nom) {
