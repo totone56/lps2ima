@@ -2,11 +2,8 @@ package LPS2IMA.Larchey;
 
 import static org.junit.Assert.*;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import LPS2IMA.Larchey.ContactService;
 
 public class TestFonctionnelContactService {
 
