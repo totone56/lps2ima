@@ -2,8 +2,6 @@ package LPS2IMA.Larchey;
 
 import java.util.ArrayList;
 
-//TSTESTESTESTESTETSTETSTETESTTETSTETSETESET
-
 public class ContactDAO {
 
 	private ArrayList<Contact> contactList;
