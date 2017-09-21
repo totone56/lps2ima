@@ -9,6 +9,9 @@ import org.junit.Test;
 import LPS2IMA.Larchey.ContactService;
 
 public class TestFonctionnelContactService {
+
+	//Test IDEA
+
 	private ContactService service ; 
 	@Before
 	public void setUp() {
