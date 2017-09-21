@@ -10,7 +10,7 @@ import LPS2IMA.Larchey.ContactService;
 
 public class TestFonctionnelContactService {
 
-	//Test IDEA
+	//Test IDEA 2
 
 	private ContactService service ; 
 	@Before
